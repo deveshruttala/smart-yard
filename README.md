@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project utilizes AI-powered computer vision to revolutionize  supply chain operations. The system performs cargo tracking, detects anomalies, monitors worker efficiency, and provides data-driven insights. Leveraging tools like OpenCV, YOLO, and Kafka, it ensures real-time visibility, predictive maintenance, and seamless integration with existing logistics platforms. The scalable architecture is designed for efficient data management, security, and compliance, significantly improving productivity, safety, and operational efficiency. 
+This project utilizes AI-powered computer vision to revolutionize  supply chain operations. The system performs cargo tracking, detects anomalies, monitors worker efficiency, and provides data-driven insights. Leveraging tools like OpenCV, YOLO, and Kafka, it ensures real-time visibility, predictive maintenance, and seamless integration with existing logistics platforms. The scalable architecture is designed for efficient data management, security, and compliance, significantly improving productivity, safety, and operational efficiency.By harnessing machine learning and edge computing, the system enables automated decision-making, reduces downtime, and optimizes resource allocation for a smarter, more resilient supply chain.
 
 
 ## Project Details 
