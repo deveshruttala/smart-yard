@@ -1,0 +1,15 @@
+import boto3
+
+# Initialize a session using your AWS credentials
+ec2 = boto3.resource('ec2')
+
+# Create an EC2 instance
+instance = ec2.create_instances(
+    ImageId='ami-0c55b159cbfafe1f0',  # Example AMI ID (change as needed)
+    MinCount=1,
+    MaxCount=1,
+    InstanceType='t2.micro',  # Instance type
+    KeyName='your-key-pair',  # Your key pair name for SSH access
+)
+
+print("Created EC2 Instance with ID:", instance[0].id)
